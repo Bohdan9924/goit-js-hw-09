@@ -15,7 +15,7 @@ startButtonEl.addEventListener("click", ()=>{
     startButtonEl.disabled = true;
 });
 
-stopButtonEl.addEventListener('click', () => {
+stopButtonEl.addEventListener("click", () => {
     clearInterval(intervalId);
     bodyEl.style.backgroundColor = `#FFFFFF`;
     startButtonEl.disabled = false; 
